@@ -25,6 +25,7 @@ function App() {
 
   if (!user) return <Login />
 
+  
   return (
     <C.Container>
       <SideBar setUserChat={setUserChat} userChat={userChat} />
